@@ -1,0 +1,65 @@
++-------------------+
+|       START       |
++-------------------+
+          |
+          v
++---------------------------+
+| Display Register/Login    |
++---------------------------+
+          |
+          v
++---------------------------+
+| User selects option       |
++---------------------------+
+     |           |
+     v           v
+Register      Login
+     |           |
+     v           v
+Store in      Verify credentials
+users.txt        |
+                 v
+        Credentials valid?
+         | Yes      | No
+         v          v
+     Diary Menu   Show error, back to menu
+         |
+         |
+==================== DIARY MENU ====================
+
++----------------------------------+
+| Display Diary Menu Options       |
+| 1. Add Entry                     |
+| 2. View Entries                  |
+| 3. Delete Specific Entry         |
+| 4. Delete All Entries            |
+| 5. Exit                          |
++----------------------------------+
+          |
+          v
++---------------------------+
+| User selects an option    |
++---------------------------+
+          |
+          v
+   +------------------------------+
+   |  Which option selected?      |
+   +------------------------------+
+     |              |                    |           |               |
+     v              v                    v           v               v
+
++-----------+ +-------------+ +----------------+ +---------------+ +---------+
+| Add Entry | | View Entry  | | Delete Specific| | Delete All    | |  Exit   |
++-----------+ +-------------+ +----------------+ +---------------+ +---------+
+     |              |                |                 |               |
+     v              v                v                 v               v
++--------------+  +--------------+  +----------------+  +------------+  +------+
+| Append entry |  | Read &       |  | Rewrite file   |  | Clear file |  | END  |
+| to user file |  | display file |  | without entry  |  | contents   |  +------+
++--------------+  +--------------+  +----------------+  +------------+
+     |              |                |                 |
+     +--------------+----------------+-----------------+
+                          |
+                          v
+                 (Back to Diary Menu)
+
