@@ -23,10 +23,10 @@ A Console-based C++ digital diary application with enhanced features of User Log
 
 ## Project structure
 Digital-Diary/
-│
-├── main.cpp           # C++ code 
-├── README.md          # Clean, professional project description
-└── flowchart.txt      # text-based flowchart 
+- digitaldiary
+     1. diigidiary_final.cpp (main.cpp)
+     2. flowchart.txt
+-README.md
 
 ## Author
 Aisha Tabsum
