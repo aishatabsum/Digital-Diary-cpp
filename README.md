@@ -21,6 +21,13 @@ A Console-based C++ digital diary application with enhanced features of User Log
 2. Run the executable.
 3. Register or log in to start using the diary.
 
+## Project structure
+Digital-Diary/
+│
+├── main.cpp           # C++ code 
+├── README.md          # Clean, professional project description
+└── flowchart.txt      # text-based flowchart 
+
 ## Author
 Aisha Tabsum
 Developed as a C++ console project for my 1st semester.
